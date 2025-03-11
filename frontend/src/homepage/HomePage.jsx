@@ -155,33 +155,36 @@ const HomePage = ({navig}) => {
                                 <h1>Services We Provide</h1>
                                 <p>Our professional cleaning services are tailored to your needs, ensuring a clean and spotless environment.</p>
                             </div>
-                            <a className='started' href=''>All Services</a>
+                            
                         </div>
                         <div className="part2">
-                            <div className="box">
-                                <img src={service_img} alt="" />
-                                <h2>Office Cleaning</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod impedit sequi assumenda labore aperiam porro consequuntur voluptates sed ipsam iure in molestiae nulla eaque, repellat eius commodi hic saepe minus alias modi vel vitae? Doloribus, blanditiis nulla et, dolores nobis nihil libero, hic odio quasi obcaecati velit exercitationem sint?</p>
-                                <a href="">Learn More</a>
-                            </div>
-                            <div className="box">
-                                <img src={service_img} alt="" />
-                                <h2>House Cleaning</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod impedit sequi assumenda labore aperiam porro consequuntur voluptates sed ipsam iure in molestiae nulla eaque, repellat eius commodi hic saepe minus alias modi vel vitae? Doloribus, blanditiis nulla et, dolores nobis nihil libero, hic odio quasi obcaecati velit exercitationem sint?</p>
-                                <a href="">Learn More</a>
-                            </div>
-                            <div className="box">
-                                <img src={service_img} alt="" />
-                                <h2>Carpet Cleaning</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod impedit sequi assumenda labore aperiam porro consequuntur voluptates sed ipsam iure in molestiae nulla eaque, repellat eius commodi hic saepe minus alias modi vel vitae? Doloribus, blanditiis nulla et, dolores nobis nihil libero, hic odio quasi obcaecati velit exercitationem sint?</p>
-                                <a href="">Learn More</a>
-                            </div>
-                            <div className="box">
-                                <img src={service_img} alt="" />
-                                <h2>Kitchen Cleaning</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quod impedit sequi assumenda labore aperiam porro consequuntur voluptates sed ipsam iure in molestiae nulla eaque, repellat eius commodi hic saepe minus alias modi vel vitae? Doloribus, blanditiis nulla et, dolores nobis nihil libero, hic odio quasi obcaecati velit exercitationem sint?</p>
-                                <a href="">Learn More</a>
-                            </div>
+                        <div className="part2">
+    <div className="box">
+        <img src={service_img} alt="Office Cleaning" />
+        <h2>Office Cleaning</h2>
+        <p>Keep your office clean, fresh, and hygienic with our professional office cleaning services. We ensure a spotless workspace by dusting, vacuuming, sanitizing surfaces, and maintaining a clutter-free environment for increased productivity.</p>
+        <a href="">Learn More</a>
+    </div>
+    <div className="box">
+        <img src={service_img} alt="House Cleaning" />
+        <h2>House Cleaning</h2>
+        <p>Enjoy a sparkling clean home with our expert house cleaning services. From dusting and mopping to deep cleaning kitchens and bathrooms, we make your living space fresh, hygienic, and inviting.</p>
+        <a href="">Learn More</a>
+    </div>
+    <div className="box">
+        <img src={service_img} alt="Carpet Cleaning" />
+        <h2>Carpet Cleaning</h2>
+        <p>Restore the beauty of your carpets with our deep cleaning solutions. We remove dirt, stains, and allergens, ensuring a fresh and soft carpet that enhances the look of your space.</p>
+        <a href="">Learn More</a>
+    </div>
+    <div className="box">
+        <img src={service_img} alt="Kitchen Cleaning" />
+        <h2>Kitchen Cleaning</h2>
+        <p>Keep your kitchen spotless and germ-free with our detailed cleaning services. We sanitize countertops, clean appliances, and remove grease buildup to ensure a safe and hygienic cooking environment.</p>
+        <a href="">Learn More</a>
+    </div>
+</div>
+
                         </div>
                 </div>
 

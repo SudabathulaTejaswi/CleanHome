@@ -21,7 +21,7 @@ function GetStarted() {
   return (
     <div className="get-started-container">
       <img src={img1} alt="Hire in 48 hours" className="banner-image" />
-      <div className="buttons">
+      <div className="button">
         <button className="join-btn" onClick={handleJoinWithUs}>
           Join with us
         </button>

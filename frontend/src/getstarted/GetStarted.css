@@ -11,11 +11,11 @@
     max-width: 1000px;
   }
    
-  .buttons {
+  .button {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap:40px;
   }
   
   .join-btn,

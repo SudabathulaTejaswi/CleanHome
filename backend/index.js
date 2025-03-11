@@ -11,9 +11,6 @@ require('./Models/db');
 const workermodel =require('./Models/UpdateJob');
 const PORT=process.env.PORT || 1000;
 
-// app.get('/ganesh',(req,res)=>{
-//     res.send('Hello Ganesh');
-// });
 
 
 app.use(bodyParser.json());
