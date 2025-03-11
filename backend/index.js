@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 const bodyParser=require('body-parser');
-const customerRoutes = require("./routes/CustomerRouter");
+const customerRoutes = require("./Routes/CustomerRouter");
 const AuthRouter=require('./Routes/AuthRouter');
 const WauthRouter=require('./Routes/WauthRouter');
 const Worker=require('./Routes/WorkerRouter')
