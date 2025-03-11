@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 const bodyParser=require('body-parser');
-const customerRoutes = require("./routes/CustomerRouter");
+const CustomerRouter = require("./routes/CustomerRouter");
 const AuthRouter=require('./Routes/AuthRouter');
 const WauthRouter=require('./Routes/WauthRouter');
 const Worker=require('./Routes/WorkerRouter')
@@ -21,7 +21,7 @@ app.use(cors());
 app.use('/auth',AuthRouter);
 app.use('/wauth',WauthRouter);
 app.use('/worker',Worker);
-app.use("/api", customerRoutes);
+app.use("/api", CustomerRouter);
 
 app.use('/book', BookingRouter);
 
