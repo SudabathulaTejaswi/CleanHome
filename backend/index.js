@@ -5,12 +5,12 @@ const cors = require('cors');
 require('dotenv').config();
 require('./Models/db');
 
-// Corrected routes imports (ensuring lowercase 'routes' directory)
-const CustomerRouter = require('./routes/CustomerRouter');
-const AuthRouter = require('./routes/AuthRouter');
-const WauthRouter = require('./routes/WauthRouter');
-const WorkerRouter = require('./routes/WorkerRouter');
-const BookingRouter = require('./routes/BookingRouter');
+// ✅ Corrected imports to use "Routes" (uppercase)
+const CustomerRouter = require('./Routes/CustomerRouter');
+const AuthRouter = require('./Routes/AuthRouter');
+const WauthRouter = require('./Routes/WauthRouter');
+const WorkerRouter = require('./Routes/WorkerRouter');
+const BookingRouter = require('./Routes/BookingRouter');
 
 // Models
 const workermodel = require('./Models/UpdateJob');
