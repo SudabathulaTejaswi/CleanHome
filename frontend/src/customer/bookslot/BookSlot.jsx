@@ -27,7 +27,7 @@ function BookSlot() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/book/bookings', form);
+      await axios.post('https://cleanhome.onrender.com/book/bookings', form);
       alert('Booking Confirmed ✅');
       navigate('/findworkers'); 
     } catch (err) {

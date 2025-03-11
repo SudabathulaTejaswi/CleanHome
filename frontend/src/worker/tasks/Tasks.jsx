@@ -10,7 +10,7 @@ function Tasks() {
   useEffect(() => {
     if (token) {
       axios
-        .get("http://localhost:5000/book/bookings")
+        .get("https://cleanhome.onrender.com/book/bookings")
         .then((res) => {
           // Filter tasks where worker email matches logged-in worker email
           const filteredTasks = res.data.filter(

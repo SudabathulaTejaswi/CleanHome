@@ -16,7 +16,7 @@ function UpdateJob() {
      useEffect(() => {
          const fetchDetails = async () => {
              try {
-                 const res = await axios.post("http://localhost:5000/worker/getjob", { email });
+                 const res = await axios.post("https://cleanhome.onrender.com/worker/getjob", { email });
                  const data = res.data;
                  setEmploymentType(data.employmentType || "");
                  setSelectedTasks(data.selectedTasks || []);

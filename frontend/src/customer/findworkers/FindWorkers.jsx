@@ -15,7 +15,7 @@ const Search = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/workers")
+      .get("https://cleanhome.onrender.com/api/workers")
       .then((res) => {
         setWorkers(res.data);
       })
