@@ -1,4 +1,4 @@
-const UpdateJob = require("../Models/UpdateJob");
+const UpdateJob = require("./../Models/UpdateJob");
 const Worker = require("../Models/Worker"); // Import Worker Model
 
 // Fetch All Workers with Name
