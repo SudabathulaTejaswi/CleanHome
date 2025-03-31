@@ -1,5 +1,5 @@
-const Booking = require('../Models/Booking');
-const History = require('../Models/History')
+const Booking = require('./../Models/Booking');
+const History = require('./../Models/History')
 const createBooking = async (req, res) => {
   try {
     const newBooking = new Booking(req.body);
